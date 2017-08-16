@@ -14,8 +14,8 @@ use xmpush\Tracer;
 */
 class MipushosController extends MainController
 {
-	private $secret = 'GEN/ELQ8aQluViaw1yjY0A==';//AppScret
-	private $bundleId = 'cn.iaapp.app.guanggaopai';//包名
+	private $secret = '';//AppScret
+	private $bundleId = '';//包名
 
 	public function _initialize(){
 		vendor('MiPush.autoload');
